@@ -1,0 +1,21 @@
+<div class="login">
+    <div class="container">
+      <div class="login-content">
+        <h3>
+          User
+        </h3>
+        <H4>Welcome</H4>
+        <div *ngIf="isDataLoaded">
+          <form [formGroup]="userDetail" (submit)="logout()">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Enter Email" formControlName="name"  disabled>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Email" formControlName="email" disabled>
+            </div>
+            <button class="btn btn-md">Signout</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

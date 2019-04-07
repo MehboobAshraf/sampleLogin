@@ -1,0 +1,189 @@
+// .container-fluid {
+//     width: 100%;
+//     background: #0070bb; // .container{
+//     header {
+//       width: 100%;
+//       text-align: center;
+//       padding: 14px 0 14px;
+//       display: inline-block;
+//       border-bottom: 2px solid #ffa00b;
+//       a {
+//         float: left;
+//         img {
+//           width: 75px;
+//         }
+//       }
+//       ul {
+//         margin: 0;
+//         padding: 0;
+//         text-align: center;
+//         display: inline-block;
+//         width: 90%;
+//         li {
+//           display: inline-block;
+//           position: relative;
+//           top: 13px;
+//           margin-left: 20px;
+//         }
+//       }
+//     }
+//   }
+  
+//   .header2 {
+//     text-align: center;
+//     h3 {
+//       font-weight: 700;
+//     }
+//   }
+  
+//   .login {
+//     text-align: center;
+//     background: #f6f7fb;
+//     height: 100vh;
+//     .container{
+//       height: 100vh;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//     }
+//     .header {
+//       background-color: #df3434;
+//       padding: 10px 0;
+//       box-shadow: 0 0 14px 2px #c9a5a5;
+//       p {
+//         font-size: 20px;
+//         text-align: center;
+//         color: white;
+//         margin: 0;
+//       }
+//       i {
+//         margin-top: 3px;
+//         float: left;
+//         color: white;
+//         font-size: 24px;
+//         cursor: pointer;
+//       }
+//     }
+//     .login-content {
+//       background: white;
+//       padding-bottom: 30px;
+//       width: 60%;
+//       margin: 0 auto;
+//       // margin-top: 35px;
+//       box-shadow: 0 1px 10px 0 #cecece;
+//       h3 {
+//         padding: 30px 0 10px 0;
+//         text-transform: uppercase;
+//         font-size: 18px;
+//         color: #d81d3a;
+//         font-weight: bold;
+//       }
+//       p {
+//         margin: 10px 0 20px 0;
+//         text-transform: capitalize;
+//         a {
+//           color: #d81d3a;
+//           font-weight: 700;
+//         }
+//       }
+//       form {
+//         // width: 50%;
+//         display: block;
+//         margin: 0 auto;
+//         .form-group {
+//           margin-bottom: 20px;
+//           input {
+//             border: 1px solid transparent;
+//             width: 334px;
+//             display: block;
+//             margin: 0 auto;
+//             height: 50px;
+//             line-height: 50px;
+//             outline: none;
+//             border-radius: 30px;
+//             background: #ffffff;
+//             padding: 0 20px;
+//             box-shadow: 0 1px 10px 0 #cecece;
+//             &:focus {
+//               border-color: #d81d3a;
+//               box-shadow: 0 0 5px 0 #d81d3a;
+//             }
+//           }
+//         }
+//         .alert-danger {
+//           margin: 12px auto;
+//           width: 334px;
+//           border-radius: 37px;
+//           background-color: #f2dede;
+//           border-color: #ebccd1;
+//           color: #a94442;
+//           padding: 16px 0;
+//         }
+//         .btn-md {
+//           padding: 7px 50px !important;
+//           border-radius: 22px !important;
+//           background: #d81d3a;
+//           color: white;
+//           text-transform: uppercase;
+//           font-size: 16px;
+//           font-weight: 700;
+//         }
+//       }
+//     }
+//   }
+  
+  
+//   @media (min-width: 320px) and (max-width: 767px){
+  
+//     .login .login-content{
+//       width: 90%;
+//       margin-top: 20px;
+//       padding-bottom: 21px;
+//     }
+//     .login .login-content form {
+//       // width: 100%;
+//       padding: 0 15px;
+//     }
+//     .login .login-content form .form-group input{
+//       width: 80%;
+//     }
+//     .login .login-content form .alert-danger {
+//       width: 100%;
+//       padding: 10px 0;
+//     }
+//     .header2 h3{
+//       padding: 0 15px;
+//     }
+//     .login {
+//       height: auto;
+//       // padding-bottom: 50px;
+//     }
+//     .process-header{
+//       width: 72% !important;
+//     }
+//     .process-header li{
+//       top: 3px !important;
+//     }
+//     .process-header li a{
+//       font-size: 13px;
+//     }
+  
+//   }
+  
+//   @media (min-width: 768px) and (max-width: 991px){
+  
+//     .login .login-content{
+//       width: 80%;
+//     }
+//     .login .login-content form {
+//       width: 80%;
+//     }
+//     .login .login-content form .form-group input{
+//       // width: 100%;
+//     }
+//     .login {
+//       height: auto;
+//       // padding-bottom: 35px;
+//     }
+  
+//   }

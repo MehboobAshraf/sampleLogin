@@ -1,0 +1,26 @@
+<div class="login">
+  <div class="container">
+    <div class="login-content">
+      <h3>
+        login
+      </h3>
+      <form [formGroup]="loginForm" (submit)="login()">
+        <div class="form-group">
+          <input type="email" class="form-control" placeholder="Enter Email" formControlName="email">
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" placeholder="Enter password" formControlName="password">
+        </div>
+        <div class="alert alert-danger" role="alert" *ngIf="error">{{error}}</div>
+        <p>Don't have an account?
+          <a routerLink='/sign-up'>Sign Up</a>
+        </p>
+        <button class="btn btn-md ld-ext-right running" [disabled]="!loginForm.valid">
+          Sign In          
+          <div *ngIf="loading"
+          class="ld ld-ring ld-spin"></div>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

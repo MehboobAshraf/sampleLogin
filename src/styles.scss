@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "assets/user";
+@import "assets/loading";
+@import "assets/loading-btn.scss";
+body {
+    margin: 0;
+    font-family: Bitter-regular;
+}
+@font-face {
+    font-family: "Bitter-italic";
+    src: url("assets/fonts/Bitter-Italic.ttf");
+  }
+  
+  @font-face {
+    font-family: "Bitter-regular";
+    src: url("assets/fonts/Bitter-Regular.ttf");
+  }
